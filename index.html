@@ -12,18 +12,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="header">
+        <div class="nav">
+            <div class="nav-option" style="opacity: 1">
+                <i class="fa-brands fa-spotify"></i>
+            </div>
+            <div class="nav-option" style="opacity: 1">
+                <i class="fa-solid fa-house"></i>
+                <a href="#"></a>
+            </div>
+            <div class="nav-option">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <a href="#">Search</a>
+            </div>
+        </div>
+    </div>
     <div class="main">
         <div class="sidebar">
-            <div class="nav">
-                <div class="nav-option" style="opacity: 1;">
-                    <i class="fa-solid fa-house"></i>
-                    <a href="#">Home</a>
-                </div>
-                <div class="nav-option">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <a href="#">Search</a>
-                </div>
-            </div>
             <div class="library">
                 <div class="options">
                     <div class="lib-option nav-option">
@@ -32,23 +37,29 @@
                     </div>
                     <div class="icons">
                         <i class="fa-solid fa-plus"></i>
-                        <i class="fa-solid fa-arrow-right"></i>
+                        <!-- <i class="fa-solid fa-arrow-right"></i> -->
                     </div>
                 </div>
-                <div class="lib-box">
+                <div class="lib-box1">
                     <p class="box-p1">Create your first playlist</p>
                     <p class="box-p2">It's easy,we'll help you</p>
                     <button class="badge">Create playlist</button>
                 </div>
-                <div class="lib-box">
+                <div class="lib-box2">
                     <p class="box-p1">Let's find some podcast to follow</p>
                     <p class="box-p2">we'll keep you updated on new episodes</p>
                     <button class="badge">Browse podcasts</button>
                 </div>
+                &nbsp;
+                &nbsp;
+                <div class="rowp1"><p>Legal</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p>Safety&PrivacyCenter</p></div>
+                <div class="rowp2"><p>Privacy Policy</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p>Cookies</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p>About Ads</p></div>
+                <div class="rowp3"><p>Accessibility</p></div>
+                <p id="p" text-style="bold" >Cookies</p>
             </div>
         </div>
         <div class="main-content">
-            <div class="sticky-nav">
+            <!-- <div class="sticky-nav">
                  <div class="sticky-nav-icons">
                     <img src="./assests/backward_icon.png">
                     <img src="./assests/forward_icon.png" class="hide">
@@ -59,87 +70,220 @@
                     <i class="fa-regular fa-user nav-item"></i>
                 </div>
             </div> 
-     
-                <h2>Recently Played</h2>
+      -->
+                <h2 id="heading1">Popular artists</h2><p id="headingp1">show all</p>
                 <div class="cards-container">
-                    <div class="card">
-                        <img src="assests/card1img.jpeg" class="card-img">
-                        <p class="card-title">Top 50 - Global</p>
-                        <p class="card-info">Your daily of the most played tracks...</p>
+                    <div class="cards-container-row1">
+                        <img src="assests/pritam1.jpeg" class="card-img-row1">
+                        <img id="playicon" src="assests/playicon1.png">
+                        <p class="card-title">Pritam</p>
+                        <p class="card-info">Artist</p>
+                    </div>
+                    <div class="cards-container-row1">
+                        <img src="assests/sachin2.jpeg" class="card-img-row1">
+                        
+                        <p class="card-title">Sachin-Jigar</p>
+                        <p class="card-info">Artist</p>
+                    </div>
+                    <div class="cards-container-row1">
+                        <img src="assests/arijit3.jpeg" class="card-img-row1">
+                        <p class="card-title">Arijit Singh</p>
+                        <p class="card-info">Artist</p>
+                    </div>
+                    <div class="cards-container-row1">
+                        <img src="assests/rehman4.jpeg" class="card-img-row1">
+                        <p class="card-title">A.R. Rehman</p>
+                        <p class="card-info">Artist</p>
+                    </div>
+                    <div class="cards-container-row1">
+                        <img src="assests/anirudh5.jpeg" class="card-img-row1">
+                        <p class="card-title">Anirudh </p>
+                        <p class="card-info">Artist</p>
+                    </div>
+                    <div class="cards-container-row1">
+                        <img src="assests/atif6.jpeg" class="card-img-row1">
+                        <p class="card-title">Atif Aslam</p>
+                        <p class="card-info">Artist</p>
                     </div>
                 </div>
+                <br>
+                <h2 id="heading1">Popular albums</h2><p id="headingp1">show all</p>
+                <div class="cards-container">
+                    <div class="cards-container-row1">
+                        <img src="assests/aashiqui1.jpeg" class="card-img-row2">
+                        <p class="card-title">Aashiqui 2</p>
+                        <p class="card-info"id="p2">Mithoon,Ankit Tiwari,Jeet<br>Gannguli</p>
+                    </div>
+                    <div class="cards-container-row1">
+                        <img src="assests/glory2.jpeg" class="card-img-row2">
+                        <p class="card-title">GLORY</p>
+                        <p class="card-info"id="p2">Yo Yo Honey Singh</p>
+                    </div>
+                    <div class="cards-container-row1">
+                        <img src="assests/jotummereho3.jpeg" class="card-img-row2">
+                        <p class="card-title">Jo Tum Mere Ho</p>
+                        <p class="card-info"id="p2">Anuv Jain</p>
+                    </div>
+                    <div class="cards-container-row1">
+                        <img src="assests/memories4.jpeg" class="card-img-row2">
+                        <p class="card-title">Making Memories</p>
+                        <p class="card-info"id="p2">Karan Aujla,Ikky</p>
+                    </div>
+                    <div class="cards-container-row1">
+                        <img src="assests/yehjawanihedewani5.jpeg" class="card-img-row2">
+                        <p class="card-title">Yeh Jawaani Hai Deewani</p>
+                        <p class="card-info"id="p2">Pritam</p>
+                    </div>
+                    <div class="cards-container-row1">
+                        <img src="assests/moosetape6.jpeg" class="card-img-row2">
+                        <p class="card-title">Moosetape</p>
+                        <p class="card-info"id="p2">Sidhu Moose Wala</p>
+                    </div>
+                </div>
+                <br>
+                <h2 id="heading1">Popular radios</h2><p id="headingp1">show all</p>
+                <div class="cards-container">
+                    <div class="cards-container-row1">
+                        <img src="assests/radio1.jpeg" class="card-img-row2">
+                        <p class="card-info">With Sachin-Jigar,Mithoon,<br>Gannguli</p>
+                    </div>
+                    <div class="cards-container-row1">
+                        <img src="assests/radio2.jpeg" class="card-img-row2">
+                        <p class="card-info">With AP Dhillon,Karan Aujla,<br>Shubh and more</p>
+                    </div>
+                    <div class="cards-container-row1">
+                        <img src="assests/radio3.jpeg" class="card-img-row2">
+                        <p class="card-info">With Abhijeet,Asha<br>Bhosle,Jatin-Lalit an...</p>
+                    </div>
+                    <div class="cards-container-row1">
+                        <img src="assests/radio4.jpeg" class="card-img-row2">
+                        <p class="card-info">With Mohit Chauhan,<br>Armaan Malik,Atif...</p>
+                    </div>
+                    <div class="cards-container-row1">
+                        <img src="assests/radio5.jpeg" class="card-img-row2">
+                        <p class="card-info">With A.R. Rahman,<br>Pritam,Atif Aslam an...</p>
+                    </div>
+                    <div class="cards-container-row1">
+                        <img src="assests/radio6.jpeg" class="card-img-row2">
+                        <p class="card-info">With Harris Jayaraj,<br>Santhosh Narayanan...</p>
+                    </div>
+                </div>
+                <br>
+                <h2 id="heading1">Featured Charts</h2><p id="headingp1">show all</p>
+                <div class="cards-container">
+                    <div class="cards-container-row1">
+                        <img src="assests/featured1.png" class="card-img-row2">
+                        <p class="card-info">Your weekly update of the<br>most played tracks right...</p>
+                    </div>
+                    <div class="cards-container-row1">
+                        <img src="assests/featured2.png" class="card-img-row2">
+                        <p class="card-info">Your weekly update of the<br>most played tracks right...</p>
+                    </div>
+                    <div class="cards-container-row1">
+                        <img src="assests/featured3.jpeg" class="card-img-row2">
+                        <p class="card-info">Your daily update of<br>the most played...</p>
+                    </div>
+                    <div class="cards-container-row1">
+                        <img src="assests/featured4.jpeg" class="card-img-row2">
+                        <p class="card-info">Your daily update of<br>the most played...</p>
+                    </div>
+                    <div class="cards-container-row1">
+                        <img src="assests/featured5.jpeg" class="card-img-row2">
+                        <p class="card-info">Your daily update of<br>the most viral tracks...</p>
+                    </div>
+                    <div class="cards-container-row1">
+                        <img src="assests/featured6.jpeg" class="card-img-row2">
+                        <p class="card-info">Your daily update of<br>the most viral tracks...</p>
+                    </div>
+                </div>
+                <br>
+                <h2 id="heading1">Playlists from our Editors</h2><p id="headingp1">show all</p>
+                <div class="cards-container">
+                    <div class="cards-container-row1">
+                        <img src="assests/editors1.jpeg" class="card-img-row2">
+                        <p class="card-title">Throwback Thursday</p>
+                        <p class="card-info">By Spotify</p>
+                    </div>
+                    <div class="cards-container-row1">
+                        <img src="assests/editors2.jpeg" class="card-img-row2">
+                        <p class="card-title">Acoustic Throwback</p>
+                        <p class="card-info">By Spotify</p>
+                    </div>
+                    <div class="cards-container-row1">
+                        <img src="assests/editors3.jpeg" class="card-img-row2">
+                        <p class="card-title">2010s Hip-Hop</p>
+                        <p class="card-info">By Spotify</p>
+                    </div>
+                    <div class="cards-container-row1">
+                        <img src="assests/editors4.jpeg" class="card-img-row2">
+                        <p class="card-title">2000s Hip-Hop</p>
+                        <p class="card-info">By Spotify</p>
+                    </div>
+                    <div class="cards-container-row1">
+                        <img src="assests/editors5.jpeg" class="card-img-row2">
+                        <p class="card-title">I Love My'90s Hip-Hop</p>
+                        <p class="card-info">By Spotify</p>
+                    </div>
+                    <div class="cards-container-row1">
+                        <img src="assests/editors6.jpeg" class="card-img-row2">
+                        <p class="card-title">Making Memories</p>
+                        <p class="card-info"></p>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="container">
+                    <div class="about">
+                        <h4>Company</h4>
+                        <p id="p4">About</p>
+                        <p id="p4">Jobs</p>
+                        <p id="p4">For the Record</p>
+                    </div>
+                    <div class="about">
+                        <h4>Communities</h4>
+                        <p id="p4">For Artists</p>
+                        <p id="p4">Developers</p>
+                        <p id="p4">Advertising</p>
+                        <p id="p4">Investors</p>
+                        <p id="p4">Vendors</p>
+                    </div>
+                    <div class="about">
+                        <h4>Useful links</h4>
+                        <p id="p4">Support</p>
+                        <p id="p4">Free Mobile App</p>
+                    </div>
+                    <div class="about">
+                        <h4>Spotify Plans</h4>
+                        <p id="p4">Premium Individual</p>
+                        <p id="p4">Premium Duo</p>
+                        <p id="p4">Premium Family</p>
+                        <p id="p4">Premium Student</p>
+                        <p id="p4">Premium Free</p>
+                    </div>
+                    <br>
+                    <br>
+                    
+                        <div class="s1"><i id="si1" class="fa-brands fa-instagram"></i></div>
+                        <div class="s1"><i id="si1" class="fa-brands fa-twitter"></i></div>
+                        <div class="s1"><i id="si1" class="fa-brands fa-facebook"></i></div>
+                    </div>
+                
+                    <hr>
+                    <br>
+                    <p id="p5">&copy;2024 Spotify AB</p>
+                    
+                    
 
-                <h2>Trending now near you</h2>
-                <div class="cards-container">
-                    <div class="card">
-                        <img src="assests/card2img.jpeg" class="card-img">
-                        <p class="card-title">Top 50 - Global</p>
-                        <p class="card-info">Your daily of the most played tracks...</p>
-                    </div>
-                    <div class="card">
-                        <img src="assests/card3img.jpeg" class="card-img">
-                        <p class="card-title">Top 50 - Global</p>
-                        <p class="card-info">Your daily of the most played tracks...</p>
-                    </div>
-                    <div class="card">
-                        <img src="assests/card4img.jpeg" class="card-img">
-                        <p class="card-title">Top 50 - Global</p>
-                        <p class="card-info">Your daily of the most played tracks...</p>
-                    </div>
-                    <div class="card">
-                        <img src="assests/card5img.jpeg" class="card-img">
-                        <p class="card-title">Top 50 - Global</p>
-                        <p class="card-info">Your daily of the most played tracks...</p>
-                    </div>
-                    <div class="card">
-                        <img src="assests/card1img.jpeg" class="card-img">
-                        <p class="card-title">Top 50 - Global</p>
-                        <p class="card-info">Your daily of the most played tracks...</p>
-                    </div>
-                </div>
-            
-                <h2>Featured Charts</h2>
-                <div class="cards-container">
-                    <div class="card">
-                        <img src="assests/card5img.jpeg" class="card-img">
-                        <p class="card-title">Top 50 - Global</p>
-                        <p class="card-info">Your daily of the most played tracks...</p>
-                    </div>
-                    <div class="card">
-                        <img src="assests/card6img.jpeg" class="card-img">
-                        <p class="card-title">Top Songs- India</p>
-                        <p class="card-info">Your daily of the most played tracks...</p>
-                    </div>
-                    <div class="card">
-                        <img src="assests/card1img.jpeg" class="card-img">
-                        <p class="card-title">Top 50 - Global</p>
-                        <p class="card-info">Your daily of the most played tracks...</p>
-                    </div>
-                </div>
             <div class="footer">
-                <div class="line">
-
-                </div>
+              
             </div>
+           
         </div>
         <div class="music-player">
-            <div class="album"></div>
-            <div class="player">
-                <div class="player-controls">
-                    <img src="./assests/player_icon1.png" class="player-controls-icons">
-                    <img src="./assests/player_icon2.png" class="player-controls-icons">
-                    <img src="./assests/player_icon3.png" class="player-controls-icons" style="opacity: 1; height: 2rem">
-                    <img src="./assests/player_icon4.png" class="player-controls-icons">
-                    <img src="./assests/player_icon5.png" class="player-controls-icons">
-                </div>
-                <div class="playback-bar">
-                        <span class="curr-time">00:00</span>
-                        <input type="range" min="0" max="100" class="progress-bar" step="1">
-                        <span class="tot-time">3:33</span>
-                </div>
-            </div>
-            <div class="controls"></div>
+          <p id="p6">Preview of Spotify</p><p id="p7">Sign up to get unlimited songs and podcasts with occasional ads. No credit card<br>needed.</p>
+          <div class="signupbtn"><button>Sign up Free</button></div>
         </div>
+        
     </div>
 </body>
 </html>
