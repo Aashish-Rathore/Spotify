@@ -6,6 +6,7 @@ This repository contains a basic recreation of Spotify's UI using HTML and CSS. 
 
 
 
+
 Features:
 
 Fully designed interface: Replicates the visual appearance of Spotify's main screen.
@@ -18,11 +19,13 @@ Dark theme: Adheres to Spotify's signature dark theme for a visually consistent 
 
 
 
+
 Current Limitations:
 
 Not currently mobile-responsive: This project is designed for desktop viewing and may not display correctly on smaller screens.
 
 No functionality: The UI elements are purely for visual representation and do not have any interactive features.
+
 
 
 
